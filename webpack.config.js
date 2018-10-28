@@ -12,12 +12,13 @@ module.exports = {
   devServer: {
     compress: true,
     publicPath: '/bin/',
-    port: 9000
+    port: 9000,
+    open: true
   },
   module: {
     rules: [
       {
-        test: /\.js$/,
+        test: /\.(js|jsx)$/,
         exclude: /node_modules/,
         use: {
           loader: "babel-loader",
