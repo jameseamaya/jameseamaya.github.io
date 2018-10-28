@@ -1,1 +1,5 @@
-console.log('hello');
+import Jquery from 'jquery';
+
+Jquery(document).ready(() => {
+  console.log('hello');
+});
