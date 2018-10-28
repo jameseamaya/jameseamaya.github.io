@@ -1,5 +1,5 @@
 import Jquery from 'jquery';
 
 Jquery(document).ready(() => {
-  console.log('hello');
+  console.log('hello after ready');
 });
