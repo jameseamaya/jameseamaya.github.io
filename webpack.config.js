@@ -5,13 +5,13 @@ module.exports = {
     app: ['./src/main.js']
   },
   output: {
-    path: path.join(__dirname, 'build'),
+    path: path.join(__dirname, 'bin'),
     filename: 'bundle.js',
-    publicPath: '/build/'
+    publicPath: '/bin/'
   },
   devServer: {
     compress: true,
-    publicPath: '/build/',
+    publicPath: '/bin/',
     port: 9000
   },
   module: {
